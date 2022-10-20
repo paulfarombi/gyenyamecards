@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="assets/css/fontawesome.css" />
     <link rel="stylesheet" href="assets/css/main.css" />
     <link rel="stylesheet" href="assets/css/owl.css" />
+    <link rel="stylesheet" href="./custom.css">
   </head>
 
   <body>
@@ -39,9 +40,10 @@
     <header class="">
       <nav class="navbar navbar-expand-lg">
         <div class="container">
-          <a class="navbar-brand" href="index.html"
-            ><h2>Gye <em>Nyame</em></h2></a
-          >
+          <a class="navbar-brand" href="index.html">
+            <h2>Gye <em>Gyame</em></h2>
+            <!-- <img class="logo-name" 
+            src="./Images/Gye Nyame logo-white.png" alt=""></a> -->
           <button
             class="navbar-toggler"
             type="button"
@@ -72,6 +74,9 @@
               <li class="nav-item">
                 <i class="fa-solid fa-person"></i>
                 <a class="nav-link" href="contact.html">Contact Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="cart.html"><i class="fa-solid fa-cart-shopping"></i>Cart</a>
               </li>
             </ul>
           </div>
@@ -119,7 +124,7 @@
           <div class="col-md-4">
             <div class="product-item">
               <a href="#"
-                ><img src="Images/IMG-20221013-WA0002.jpg" alt=""
+                ><img class="shop-item-image" src="Images/IMG-20221013-WA0002.jpg" alt=""
               /></a>
               <div class="down-content">
                 <a href="#"
@@ -128,7 +133,10 @@
                     Designs
                   </h4></a
                 >
-                <h6>$25.75</h6>
+                <div class="shop-item-details">
+                  <h6 class="shop-item-price">$18.25</h6>
+                  <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+              </div>
                 <p>
                   Lorem ipsume dolor sit amet, adipisicing elite. Itaque,
                   corporis nulla aspernatur.
@@ -147,7 +155,7 @@
           <div class="col-md-4">
             <div class="product-item">
               <a href="#"
-                ><img src="Images/IMG-20221013-WA0005.jpg" alt=""
+                ><img class="shop-item-image" src="Images/IMG-20221013-WA0005.jpg" alt=""
               /></a>
               <div class="down-content">
                 <a href="#"
@@ -155,7 +163,10 @@
                     Gye Nyame Cap<br />
                     Designs
                   </h4></a>
-                <h6>$30.25</h6>
+                  <div class="shop-item-details">
+                    <h6 class="shop-item-price">$16.75</h6>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
                 <p>
                   Lorem ipsume dolor sit amet, adipisicing elite. Itaque,
                   corporis nulla aspernatur.
@@ -174,16 +185,19 @@
           <div class="col-md-4">
             <div class="product-item">
               <a href="#"
-                ><img src="Images/IMG-20221013-WA0003.jpg" alt=""
+                ><img class="shop-item-image" src="Images/IMG-20221013-WA0003.jpg" alt=""
               /></a>
               <div class="down-content">
                 <a href="#"
                   ><h4>
-                    Gye Nyame Color T-shirt <br />
+                    Gye Nyame Shirts <br />
                     Designs
                   </h4></a
                 >
-                <h6>$20.45</h6>
+                <div class="shop-item-details">
+                  <h6 class="shop-item-price">$32.50</h6>
+                  <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+              </div>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Laboriosam, natus.
@@ -202,7 +216,7 @@
           <div class="col-md-4">
             <div class="product-item">
               <a href="#"
-                ><img src="Images/IMG-20221013-WA0006.jpg" alt=""
+                ><img class="shop-item-image" src="Images/IMG-20221013-WA0006.jpg" alt=""
               /></a>
               <div class="down-content">
                 <a href="#"
@@ -211,7 +225,10 @@
                     Designs
                   </h4></a
                 >
-                <h6>$15.25</h6>
+                <div class="shop-item-details">
+                  <h6 class="shop-item-price">$24.60</h6>
+                  <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+              </div>
                 <p>
                   Lorem ipsume dolor sit amet, adipisicing elite. Itaque,
                   corporis nulla aspernatur.
@@ -230,16 +247,19 @@
           <div class="col-md-4">
             <div class="product-item">
               <a href="#"
-                ><img src="Images/IMG-20221013-WA0004.jpg" alt=""
+                ><img class="shop-item-image" src="Images/IMG-20221013-WA0004.jpg" alt=""
               /></a>
               <div class="down-content">
                 <a href="#"
                   ><h4>
-                    Gye Nyame Cup<br />
+                    Gye Nyame Cap<br />
                     Designs
                   </h4></a
                 >
-                <h6>$12.50</h6>
+                <div class="shop-item-details">
+                  <h6 class="shop-item-price">$18.75</h6>
+                  <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+              </div>
                 <p>
                   Lorem ipsume dolor sit amet, adipisicing elite. Itaque,
                   corporis nulla aspernatur.
@@ -258,11 +278,14 @@
           <div class="col-md-4">
             <div class="product-item">
               <a href="#"
-                ><img src="Images/IMG-20221013-WA0001.jpg" alt=""
+                ><img class="shop-item-image" src="Images/IMG-20221013-WA0001.jpg" alt=""
               /></a>
               <div class="down-content">
                 <a href="#"><h4>Gye Nyame Cards</h4></a>
-                <h6>$22.50</h6>
+                <div class="shop-item-details">
+                  <h6 class="shop-item-price">$12.50</h6>
+                  <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+              </div>
                 <p>
                   Lorem ipsume dolor sit amet, adipisicing elite. Itaque,
                   corporis nulla aspernatur.
@@ -321,7 +344,7 @@
         </div>
       </div>
     </div>
-
+<!-- Call to action -->
     <div class="call-to-action">
       <div class="container">
         <div class="row">

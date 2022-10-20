@@ -1,0 +1,19 @@
+.logo-name{
+    width: 100px;
+    height: 100px;
+    padding-bottom: 20px;
+}
+
+.shop-item-details{
+    text-align: right;
+    /* padding-top: -100px;     */
+}
+
+.shop-item-button{
+    background-color: #405f33;
+    border-color: #405f33;
+}
+.shop-item-button:hover{
+    background-color: #f33f3f;
+    border-color: #f33f3f;
+}

@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
 
-    <title>Gye Nyame Cards Products</title>
+    <title>Cart Page</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -49,7 +49,7 @@
                   <span class="sr-only">(current)</span>
                 </a>
               </li> 
-              <li class="nav-item active">
+              <li class="nav-item">
                 <a class="nav-link" href="products.html"><i class="fa-solid fa-cart-shopping"></i>Our Products</a>
               </li>
               <li class="nav-item">
@@ -58,7 +58,7 @@
               <li class="nav-item">
                 <a class="nav-link" href="contact.html"><i class="fa-solid fa-person"></i>Contact Us</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item active">
                 <a class="nav-link" href="cart.html"><i class="fa-solid fa-cart-shopping"></i>Cart</a>
               </li>
             </ul>
@@ -67,8 +67,8 @@
       </nav>
     </header>
 
-    <!-- Page Content -->
-    <div class="page-heading products-heading header-text">
+    Page Content
+    <!-- <div class="page-heading products-heading header-text">
       <div class="container">
         <div class="row">
           <div class="col-md-12">
@@ -79,9 +79,9 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
-    <!-- Product Section -->
+    
     <div class="products">
       <div class="container">
         <div class="row">
@@ -123,7 +123,8 @@
                     </div>
                     <div class="col-lg-4 col-md-4 all dev">
                       <div class="product-item">
-                        <a href="#"><img class="shop-item-image" src="Images/IMG-20221013-WA0005.jpg" alt=""></a>
+                        <a href="#">
+                          <img class="shop-item-image" src="Images/IMG-20221013-WA0005.jpg" alt=""></a>
                         <div class="down-content">
                           <a href="#"><h4>Gye Nyame Cap<br />
                             Designs</h4></a>
@@ -249,6 +250,23 @@
         </div>
       </div>
     </div>
+
+
+    <section class="container content-section">
+        <h2 class="section-header">CART</h2>
+        <div class="cart-row">
+            <span class="cart-item cart-header cart-column">ITEM</span>
+            <span class="cart-price cart-header cart-column">PRICE</span>
+            <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+        </div>
+        <div class="cart-items">
+        </div>
+        <div class="cart-total">
+            <strong class="cart-total-title">Total</strong>
+            <span class="cart-total-price">$0</span>
+        </div>
+        <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+    </section>
 
     
     <footer>
