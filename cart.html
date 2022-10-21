@@ -1,65 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-
   <head>
-
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 
     <title>Cart Page</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
 
     <!-- Additional CSS Files -->
-    <link rel="stylesheet" href="assets/css/fontawesome.css">
-    <link rel="stylesheet" href="assets/css/main.css">
-    <link rel="stylesheet" href="assets/css/owl.css">
-    <link rel="stylesheet" href="custom.css">
+    <link rel="stylesheet" href="assets/css/fontawesome.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/owl.css" />
+    <link rel="stylesheet" href="custom.css" />
     <script src="./assets/js/cart.js" async></script>
   </head>
 
   <body>
-
     <!-- ***** Preloader Start ***** -->
     <div id="preloader">
-        <div class="jumper">
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
-    </div>  
+      <div class="jumper">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
     <!-- ***** Preloader End ***** -->
 
     <!-- Header -->
     <header class="">
       <nav class="navbar navbar-expand-lg">
         <div class="container">
-          <a class="navbar-brand" href="index.html"><h2>Gye <em>Nyame</em></h2></a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <a class="navbar-brand" href="index.html"
+            ><h2>Gye <em>Nyame</em></h2></a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarResponsive"
+            aria-controls="navbarResponsive"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
-                <a class="nav-link" href="index.html"><i class="fa-solid fa-house"></i>Home
+                <a class="nav-link" href="index.html"
+                  ><i class="fa-solid fa-house"></i>Home
                   <span class="sr-only">(current)</span>
                 </a>
-              </li> 
+              </li>
               <li class="nav-item">
-                <a class="nav-link" href="products.html"><i class="fa-solid fa-cart-shopping"></i>Our Products</a>
+                <a class="nav-link" href="products.html"
+                  ><i class="fa-solid fa-cart-shopping"></i>Our Products</a
+                >
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="about.html">About Us</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="contact.html"><i class="fa-solid fa-person"></i>Contact Us</a>
+                <a class="nav-link" href="contact.html"
+                  ><i class="fa-solid fa-person"></i>Contact Us</a
+                >
               </li>
               <li class="nav-item active">
-                <a class="nav-link" href="cart.html"><i class="fa-solid fa-cart-shopping"></i>Cart</a>
+                <a class="nav-link" href="cart.html"
+                  ><i class="fa-solid fa-cart-shopping"></i>Cart</a
+                >
               </li>
             </ul>
           </div>
@@ -81,213 +102,80 @@
       </div>
     </div> -->
 
-    
-    <div class="products">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="filters">
-              <ul>
-                  <li class="active" data-filter="*">All Products</li>
-                  <li data-filter=".des">Featured</li>
-                  <li data-filter=".dev">Flash Deals</li>
-                  <li data-filter=".gra">Last Minute</li>
-              </ul>
-            </div>
+    <!-- Cart Section -->
+    <section class="container content-section">
+      <h2 class="section-header">CART</h2>
+      <div class="cart-row">
+        <span class="cart-item cart-header cart-column">ITEM</span>
+        <span class="cart-price cart-header cart-column">PRICE</span>
+        <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+      </div>
+      <div class="cart-items">
+        <div class="cart-row">
+          <div class="cart-item cart-column">
+            <img
+              class="cart-item-image"
+              src="Images/IMG-20221013-WA0002.jpg"
+              width="100"
+              height="100"
+            />
+            <span class="cart-item-title">Gye Gyame T-Shirt Design</span>
           </div>
-          <div class="col-md-12">
-            <div class="filters-content">
-                <div class="row grid">
-                    <div class="col-lg-4 col-md-4 all des">
-                      <div class="product-item">
-                        <a href="#">
-                          <img class="shop-item-image" src="Images/IMG-20221013-WA0002.jpg" alt=""></a>
-                        <div class="down-content">
-                          <a href="#"><h4>Gye Nyame T-shirts <br />
-                            Designs</h4></a>
-                            <div class="shop-item-details">
-                                <h6 class="shop-item-price">$18.25</h6>
-                                <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
-                            </div>
-                          <p>Lorem ipsume dolor sit amet, adipisicing elite. Itaque, corporis nulla aspernatur.</p>
-                          <ul class="stars">
-                            <li><i class="fa fa-star"></i></li>
-                            <li><i class="fa fa-star"></i></li>
-                            <li><i class="fa fa-star"></i></li>
-                            <li><i class="fa fa-star"></i></li>
-                            <li><i class="fa fa-star"></i></li>
-                          </ul>
-                          <span>Reviews (12)</span>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 all dev">
-                      <div class="product-item">
-                        <a href="#">
-                          <img class="shop-item-image" src="Images/IMG-20221013-WA0005.jpg" alt=""></a>
-                        <div class="down-content">
-                          <a href="#"><h4>Gye Nyame Cap<br />
-                            Designs</h4></a>
-                            <div class="shop-item-details">
-                                <h6 class="shop-item-price">$16.75</h6>
-                                <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
-                            </div>
-                          <p>Lorem ipsume dolor sit amet, adipisicing elite. Itaque, corporis nulla aspernatur.</p>
-                          <ul class="stars">
-                            <li><i class="fa fa-star"></i></li>
-                            <li><i class="fa fa-star"></i></li>
-                            <li><i class="fa fa-star"></i></li>
-                            <li><i class="fa fa-star"></i></li>
-                            <li><i class="fa fa-star"></i></li>
-                          </ul>
-                          <span>Reviews (24)</span>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 all gra">
-                      <div class="product-item">
-                        <a href="#">
-                          <img class="shop-item-image" src="Images/IMG-20221013-WA0003.jpg" alt=""></a>
-                        <div class="down-content">
-                          <a href="#"><h4>Gye Nyame Shirts <br />
-                            Designs</h4></a>
-                            <div class="shop-item-details">
-                                <h6 class="shop-item-price">$32.50</h6>
-                                <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
-                            </div>
-                          <p>Lorem ipsume dolor sit amet, adipisicing elite. Itaque, corporis nulla aspernatur.</p>
-                          <ul class="stars">
-                            <li><i class="fa fa-star"></i></li>
-                            <li><i class="fa fa-star"></i></li>
-                            <li><i class="fa fa-star"></i></li>
-                            <li><i class="fa fa-star"></i></li>
-                            <li><i class="fa fa-star"></i></li>
-                          </ul>
-                          <span>Reviews (36)</span>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 all gra">
-                      <div class="product-item">
-                        <a href="#">
-                          <img class="shop-item-image" src="Images/IMG-20221013-WA0006.jpg" alt=""></a>
-                        <div class="down-content">
-                          <a href="#"><h4>Gye Nyame Cup<br />
-                            Designs</h4></a>
-                            <div class="shop-item-details">
-                                <h6 class="shop-item-price">$24.60</h6>
-                                <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
-                            </div>
-                          <p>Lorem ipsume dolor sit amet, adipisicing elite. Itaque, corporis nulla aspernatur.</p>
-                          <ul class="stars">
-                            <li><i class="fa fa-star"></i></li>
-                            <li><i class="fa fa-star"></i></li>
-                            <li><i class="fa fa-star"></i></li>
-                            <li><i class="fa fa-star"></i></li>
-                            <li><i class="fa fa-star"></i></li>
-                          </ul>
-                          <span>Reviews (48)</span>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 all dev">
-                      <div class="product-item">
-                        <a href="#">
-                          <img class="shop-item-image" src="Images/IMG-20221013-WA0004.jpg" alt=""></a>
-                        <div class="down-content">
-                          <a href="#"><h4>Gye Nyame Cap<br />
-                            Designs</h4></a>
-                            <div class="shop-item-details">
-                                <h6 class="shop-item-price">$18.75</h6>
-                                <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
-                            </div>
-                          <p>Lorem ipsume dolor sit amet, adipisicing elite. Itaque, corporis nulla aspernatur.</p>
-                          <ul class="stars">
-                            <li><i class="fa fa-star"></i></li>
-                            <li><i class="fa fa-star"></i></li>
-                            <li><i class="fa fa-star"></i></li>
-                            <li><i class="fa fa-star"></i></li>
-                            <li><i class="fa fa-star"></i></li>
-                          </ul>
-                          <span>Reviews (60)</span>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 all des">
-                      <div class="product-item">
-                        <a href="#">
-                          <img class="shop-item-image" src="Images/IMG-20221013-WA0001.jpg" alt=""></a>
-                        <div class="down-content">
-                          <a href="#"><h4>Gye Nyame Cards</h4></a>
-                          <div class="shop-item-details">
-                            <h6 class="shop-item-price">$12.50</h6>
-                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
-                        </div>
-                          <p>Lorem ipsume dolor sit amet, adipisicing elite. Itaque, corporis nulla aspernatur.</p>
-                          <ul class="stars">
-                            <li><i class="fa fa-star"></i></li>
-                            <li><i class="fa fa-star"></i></li>
-                            <li><i class="fa fa-star"></i></li>
-                            <li><i class="fa fa-star"></i></li>
-                            <li><i class="fa fa-star"></i></li>
-                          </ul>
-                          <span>Reviews (72)</span>
-                        </div>
-                      </div>
-                    </div>
-                </div>
-            </div>
+          <span class="cart-price cart-column">$18.99</span>
+          <div class="cart-quantity cart-column">
+            <input class="cart-quantity-input" type="number" value="1" />
+            <button class="btn btn-danger" type="button">REMOVE</button>
           </div>
-          <div class="col-md-12">
-            <ul class="pages">
-              <li><a href="#">1</a></li>
-              <li class="active"><a href="#">2</a></li>
-              <li><a href="#">3</a></li>
-              <li><a href="#">4</a></li>
-              <li><a href="#"><i class="fa fa-angle-double-right"></i></a></li>
-            </ul>
+        </div>
+        <div class="cart-row">
+          <div class="cart-item cart-column">
+            <img
+              class="cart-item-image"
+              src="Images/Album 3.png"
+              width="100"
+              height="100"
+            />
+            <span class="cart-item-title">Gye Nyame Cap Design</span>
+          </div>
+          <span class="cart-price cart-column">$9.99</span>
+          <div class="cart-quantity cart-column">
+            <input class="cart-quantity-input" type="number" value="2" />
+            <button class="btn btn-danger" type="button">REMOVE</button>
           </div>
         </div>
       </div>
-    </div>
-
-
-    <section class="container content-section">
-        <h2 class="section-header">CART</h2>
-        <div class="cart-row">
-            <span class="cart-item cart-header cart-column">ITEM</span>
-            <span class="cart-price cart-header cart-column">PRICE</span>
-            <span class="cart-quantity cart-header cart-column">QUANTITY</span>
-        </div>
-        <div class="cart-items">
-        </div>
-        <div class="cart-total">
-            <strong class="cart-total-title">Total</strong>
-            <span class="cart-total-price">$0</span>
-        </div>
-        <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+      <div class="cart-total">
+        <strong class="cart-total-title">Total</strong>
+        <span class="cart-total-price">$38.97</span>
+      </div>
+      <button class="btn btn-primary btn-purchase" type="button">
+        PURCHASE
+      </button>
     </section>
 
-    
     <footer>
       <div class="container">
         <div class="row">
           <div class="col-md-12">
             <div class="inner-content">
-              <p>Copyright &copy; 2022 Pafad Tech., Ltd.
-            
-            - Design: <a rel="nofollow noopener" href="https://pafadmo.com" target="_blank"><strong>PafadMo</strong></a></p>
+              <p>
+                Copyright &copy; 2022 Pafad Tech., Ltd. - Design:
+                <a
+                  rel="nofollow noopener"
+                  href="https://pafadmo.com"
+                  target="_blank"
+                  ><strong>PafadMo</strong></a
+                >
+              </p>
             </div>
           </div>
         </div>
       </div>
     </footer>
 
-
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
 
     <!-- Additional Scripts -->
     <script src="assets/js/custom.js"></script>
@@ -296,19 +184,17 @@
     <script src="assets/js/isotope.js"></script>
     <script src="assets/js/accordions.js"></script>
 
-
-    <script language = "text/Javascript"> 
+    <script language="text/Javascript">
       cleared[0] = cleared[1] = cleared[2] = 0; //set a cleared flag for each field
-      function clearField(t){                   //declaring the array outside of the
-      if(! cleared[t.id]){                      // function makes it static and global
-          cleared[t.id] = 1;  // you could use true and false, but that's more typing
-          t.value='';         // with more chance of typos
-          t.style.color='#fff';
-          }
+      function clearField(t) {
+        //declaring the array outside of the
+        if (!cleared[t.id]) {
+          // function makes it static and global
+          cleared[t.id] = 1; // you could use true and false, but that's more typing
+          t.value = ""; // with more chance of typos
+          t.style.color = "#fff";
+        }
       }
     </script>
-
-
   </body>
-
 </html>
