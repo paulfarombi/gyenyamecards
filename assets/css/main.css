@@ -931,7 +931,7 @@ footer .inner-content p a {
     margin-bottom: 20px;
   }
   .product-item .down-content h4 {
-    margin-bottom: 20px !important;
+    /* margin-bottom: 20px !important; */
   }
   .product-item .down-content h6 {
     position: absolute !important;
@@ -976,7 +976,7 @@ footer .inner-content p a {
   .navbar .navbar-brand {
     position: absolute;
     left: 30px;
-    top: 32px;
+    top: 8px;
   }
   .navbar .navbar-brand {
     width: auto;
