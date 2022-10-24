@@ -214,23 +214,18 @@ header {
   transition: all 0.3s ease-in-out 0s;
 }
 header .navbar {
-  padding: 17px 0px;
+  /* padding: 17px 0px; */
 }
 .background-header .navbar {
-  padding: 17px 0px;
+  /* padding: 17px 0px; */
 }
 .background-header {
   top: 0;
   position: fixed;
   background-color: #fff !important;
-  box-shadow: 0px 1px 10px rgba(33, 190, 91, 0.3);
-  /* rgba(0,0,0,0.1) */
+  box-shadow: 0px 1px 10px #405f33;
 }
 
-.navbar-brand
-.background-header .navbar-brand h2 {
-  color: #121212 !important;
-}
 .background-header .navbar-nav a.nav-link {
   color: #405f33 !important;
 }
@@ -246,25 +241,7 @@ header .navbar {
   margin-top: -12px;
   outline: none;
 }
-.navbar .navbar-brand h2 {
-  color: #fff;
-  text-transform: uppercase;
-  font-size: 24px;
-  font-weight: 700;
-  -webkit-transition: all 0.3s ease 0s;
-  -moz-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
-}
-.navbar .navbar-brand h2 em {
-  font-style: normal;
-  /* color: #f33f3f; */
 
-
-
-
-  
-}
 #navbarResponsive {
   z-index: 999;
 }
@@ -438,7 +415,7 @@ header .navbar {
   color: black;
   /* darkgreen; */
   /* #1a6692; */
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
 }
 
 .product-item .down-content h6 {

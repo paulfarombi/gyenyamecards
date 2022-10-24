@@ -2,15 +2,9 @@
     text-align: right;
     /* padding-top: -100px;     */
 }
-.container{
-    margin: 0;
-    padding: 0;  
-}
+
 header .navbar{
     padding: 0;
-}
-.logo{
-    padding-left: 50px;
 }
 
 .shop-item-button{
@@ -22,9 +16,9 @@ header .navbar{
     border-color: #f33f3f;
 }
 
-.shop-item {
+/* .shop-item {
     margin: 30px;
-}
+} */
 
 .shop-item-title {
     display: block;
@@ -40,11 +34,11 @@ header .navbar{
     height: 250px;
 }
 
-.shop-item-details {
+/* .shop-item-details {
     display: flex;
     align-items: center;
     padding: 5px;
-}
+} */
 
 .shop-item-price {
     flex-grow: 1;
