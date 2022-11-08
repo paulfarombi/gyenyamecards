@@ -27,13 +27,13 @@ let products = [
     },
     {
         name: "Gye Nyame Cap Design",
-        tag: 'gyenyamecapdesign',
+        tag: 'gyenyamecapdesigns',
         price: 18.25,
         inCart: 0
     },
     {
         name: "Gye Nyame Cards",
-        tag: 'gyenyametshirtdesign',
+        tag: 'gyenyamecards',
         price: 22.50,
         inCart: 0
     }
@@ -118,7 +118,8 @@ function displayCart() {
             productContainer.innerHTML += `
             <div class="product">
                  <ion-icon name="close-circle"></ion-icon>
-                 <img src="./images/${item.tag}.jpg">
+                 <img src="assets/js/images/${item.tag}.jpg">                 
+                 
                  <span>${item.name}</span>  
             </div>
             <div class="price">$${item.price}</div>
@@ -144,6 +145,7 @@ function displayCart() {
         `;
     }    
 } 
-
+/* <img src="assets/js/images/gyenyamecupdesign.jpg">
+<img src="./images/${item.tag}.jpg"> */
 onLoadCartNumbers();
 displayCart();
