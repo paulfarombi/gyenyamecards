@@ -88,15 +88,16 @@ a.filled-button:hover {
 }
 
 .products-heading {
-  background-image: url(../images/products-heading.jpg);
+  background-image: url(../Image/Slider.png);
+    /* (../images/products-heading.jpg); */
 }
 
 .about-heading {
-  background-image: url(../images/about-heading.jpg);
+  background-image: url(../Image/small-business.jpg);
 }
 
 .contact-heading {
-  background-image: url(../images/contact-heading.jpg);
+  background-image: url(../Image/african-american-business-woman-by-window.jpg);
 }
 
 .page-heading {
@@ -718,7 +719,7 @@ footer .inner-content p a {
 /* Services */
 
 .services {
-  background-image: url(../images/services-bg.jpg);
+  background-image: url(../Image/successful-business-team-posing-office-hall.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;

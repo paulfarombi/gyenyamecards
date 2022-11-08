@@ -24,7 +24,7 @@
     <link rel="stylesheet" href="assets/css/main.css" />
     <link rel="stylesheet" href="assets/css/owl.css" />
     <link rel="stylesheet" href="custom.css" />
-    <script src="./assets/js/cart.js" async></script>
+    <!-- <script src="./assets/js/cart1.js" async></script> -->
   </head>
 
   <body>
@@ -39,7 +39,7 @@
     <!-- ***** Preloader End ***** -->
 
     <!-- Header -->
-    <header class="">
+    <header class="head">
       <nav class="navbar navbar-expand-lg">
         <div class="container">
           <a class="navbar-brand" href="index.html"
@@ -81,80 +81,33 @@
                   >Contact Us</a
                 >
               </li>
-              <li class="nav-item active">
+              <li class="nav-item cart active">
                 <a class="nav-link" href="cart.html"
-                  ><i class="fa-solid fa-cart-shopping"></i></a>
+                  ><i class="fa-solid fa-cart-shopping"></i><span>0</span></a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
     </header>
-
-    Page Content
-    <!-- <div class="page-heading products-heading header-text">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="text-content">
-              <h4>new arrivals</h4>
-              <h2>Gye Nyame products</h2>
-            </div>
-          </div>
-        </div>
+cart
+ <!-- Cart Section -->
+    <div class="products-container">
+      <div class="product-header">
+        <h5 class="product-title">PRODUCT</h5>
+        <h5 class="price">PRICE</h5>
+        <h5 class="quantity">QUANTITY</h5>
+        <h5 class="total">TOTAL</h5>
       </div>
-    </div> -->
-
-    <!-- Cart Section -->
-    <section class="container content-section">
-      <h2 class="section-header">CART</h2>
-      <div class="cart-row">
-        <span class="cart-item cart-header cart-column">ITEM</span>
-        <span class="cart-price cart-header cart-column">PRICE</span>
-        <span class="cart-quantity cart-header cart-column">QUANTITY</span>
-      </div>
-      <div class="cart-items">
-        <div class="cart-row">
-          <div class="cart-item cart-column">
-            <img
-              class="cart-item-image"
-              src="Images/IMG-20221013-WA0002.jpg"
-              width="100"
-              height="100"
-            />
-            <span class="cart-item-title">Gye Gyame T-Shirt Design</span>
-          </div>
-          <span class="cart-price cart-column">$18.99</span>
-          <div class="cart-quantity cart-column">
-            <input class="cart-quantity-input" type="number" value="1" />
-            <button class="btn btn-danger" type="button">REMOVE</button>
-          </div>
-        </div>
-        <div class="cart-row">
-          <div class="cart-item cart-column">
-            <img
-              class="cart-item-image"
-              src="Images/Album 3.png"
-              width="100"
-              height="100"
-            />
-            <span class="cart-item-title">Gye Nyame Cap Design</span>
-          </div>
-          <span class="cart-price cart-column">$9.99</span>
-          <div class="cart-quantity cart-column">
-            <input class="cart-quantity-input" type="number" value="2" />
-            <button class="btn btn-danger" type="button">REMOVE</button>
-          </div>
-        </div>
-      </div>
-      <div class="cart-total">
-        <strong class="cart-total-title">Total</strong>
-        <span class="cart-total-price">$38.97</span>
+      <div class="products">
+        
       </div>
       <button class="btn btn-primary btn-purchase" type="button">
         PURCHASE
       </button>
-    </section>
+    </div>
+   
+      
 
     <footer>
       <div class="container">
@@ -186,6 +139,8 @@
     <script src="assets/js/slick.js"></script>
     <script src="assets/js/isotope.js"></script>
     <script src="assets/js/accordions.js"></script>
+    <script src="assets/js/cart.js"></script>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
 
     <script language="text/Javascript">
       cleared[0] = cleared[1] = cleared[2] = 0; //set a cleared flag for each field

@@ -51,117 +51,104 @@ header .navbar{
     justify-content: space-around;
 }
 
-/* Cart Section */
-.content-section {
-    margin: 1em;
+
+       /* Cart Section */
+.cart span{
+    padding-left: 10px;
 }
 
-.section-header {
-    font-family: "Metal Mania";
-    font-weight: normal;
-    color: #333;
-    text-align: center;
-    font-size: 2.5em;
+.products-container {
+    max-width: 650px;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.products-container ion-icon {
+    font-size: 25px;
+    color: #405f33;
+    margin: 0 auto;
+    margin-top: 50px;
 }
 
-.cart-row {
+.product-header {
+    width: 100%;
+    max-width: 650px;
     display: flex;
+    justify-content: flex-start;
+    border-bottom: 4px solid #405f33;
+    margin: 0 auto;
 }
 
-.cart-row:last-child {
-    border-bottom: 1px solid black;
-}
-
-.cart-row:last-child .cart-column {
-    border: none;
-}
-
-.cart-item {
+.product-title {
     width: 45%;
 }
 
-.cart-header {
-    font-weight: bold;
-    font-size: 1.25em;
-    color: #333;
-}
-
-.cart-column {
+.price {
+    width: 15%;
+    border-bottom: 1px solid #405f33;    
     display: flex;
     align-items: center;
-    border-bottom: 1px solid black;
-    margin-right: 1.5em;
-    padding-bottom: 10px;
-    margin-top: 10px;
+}
+.quantity {
+    width: 30%;
+    border-bottom: 1px solid #405f33;
+    display: flex;
+    align-items: center;
+}
+.total {
+    width: 10%;
+    border-bottom: 1px solid #405f33;
+    display: flex;
+    align-items: center;
+}
+.products {
+    width: 45%;    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* padding: 10px 0; */
+    /* border-bottom: 1px solid #405f33; */
 }
 
-.cart-price {
-    width: 20%;
-    font-size: 1.2em;
-    color: #333;
+.product ion-icon {
+    cursor: pointer;
 }
 
-.cart-quantity {
-    width: 35%;
+.products {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.btn-danger {
-    color: white;
-    background-color: #405f33;
-    border: none;
-    border-radius: .3em;
-    font-weight: bold;
+.products img {
+    /* width: 100px;
+    height: 100px; */
+    object-fit: cover;
 }
 
-.btn-danger:hover {
-    background-color: #f33f3f;
+.basketTotalContainer {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 10px 0;
 }
 
-.cart-quantity-input {
-    height: 34px;
-    width: 50px;
-    border-radius: 5px;
-    border: 1px solid #405f33;
-    background-color: #eee;
-    color: #333;
-    padding: 0;
-    text-align: center;
-    font-size: 1.2em;
-    margin-right: 25px;
+.basketTotalTitle {
+    width: 30%;
 }
 
-
-.cart-total {
-    text-align: end;
-    margin-top: 10px;
-    margin-right: 10px;
+.basketTotal {
+    width: 10%;
 }
 
-.cart-total-title {
-    font-weight: bold;
-    font-size: 1.5em;
-    color: black;
-    margin-right: 20px;
-}
-
-.cart-total-price {
-    color: #333;
-    font-size: 1.1em;
-}
-
-.btn-primary {
-    color: white;
-    background-color: #405f33;
-    border: none;
-    border-radius: .3em;
-    font-weight: bold;
-}
-
-.btn-primary:hover {
-    background-color: #f33f3f;
-}
 .btn-purchase {
-    display: block;
-    margin: 40px auto 80px auto;
-    font-size: 1.2em;
+    float: right;
+    background-color: #405f33;
+    border-color: #405f33;
+}
+
+.btn-purchase:hover {
+    background-color: #f33f3f;
+    border-color: #405f33;
+
 }

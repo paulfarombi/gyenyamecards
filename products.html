@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/css/owl.css">
     <link rel="stylesheet" href="custom.css">
-    <script src="./assets/js/cart.js" async></script>
+    <!-- <script src="./assets/js/cart1.js" async></script> -->
   </head>
 
   <body>
@@ -63,8 +63,8 @@
               <li class="nav-item">
                 <a class="nav-link" href="contact.html">Contact Us</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+              <li class="nav-item cart">
+                <a class="nav-link" href="cart.html"><i class="fa-solid fa-cart-shopping"></i><span>0</span></a>
               </li>
             </ul>
           </div>
@@ -94,25 +94,29 @@
             <div class="filters">
               <ul>
                   <li class="active" data-filter="*">All Products</li>
-                  <li data-filter=".des">Featured</li>
-                  <li data-filter=".dev">Flash Deals</li>
-                  <li data-filter=".gra">Last Minute</li>
+                  <li data-filter=".des">T- Shirts</li>
+                  <li data-filter=".dev">Cap</li>
+                  <li data-filter=".gra">Cards</li>
               </ul>
             </div>
           </div>
           <div class="col-md-12">
             <div class="filters-content">
                 <div class="row grid">
+
+                  <!-- 1st Product -->
                     <div class="col-lg-4 col-md-4 all des">
                       <div class="product-item">
                         <a href="#">
                           <img class="shop-item-image" src="Images/IMG-20221013-WA0002.jpg" alt=""></a>
                         <div class="down-content">
-                          <a href="#"><h4>Gye Nyame T-shirts <br />
-                            Designs</h4></a>
+                          <a href="#"><h4>Gye Nyame T-shirt <br />
+                            Design</h4></a>
                             <div class="shop-item-details">
                                 <h6 class="shop-item-price">$18.25</h6>
-                                <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                                <a href="#" class="btn btn-primary shop-item-button cart1">ADD TO CART</a>
+                                <!-- <input type="hidden" value="15" /> -->
+                                <!-- <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button> -->
                             </div>
                           <p>Lorem ipsume dolor sit amet, adipisicing elite. Itaque, corporis nulla aspernatur.</p>
                           <ul class="stars">
@@ -126,15 +130,19 @@
                         </div>
                       </div>
                     </div>
+
+                    <!-- 2nd Product -->
                     <div class="col-lg-4 col-md-4 all dev">
                       <div class="product-item">
                         <a href="#"><img class="shop-item-image" src="Images/IMG-20221013-WA0005.jpg" alt=""></a>
                         <div class="down-content">
                           <a href="#"><h4>Gye Nyame Cap<br />
-                            Designs</h4></a>
+                            Design</h4></a>
                             <div class="shop-item-details">
                                 <h6 class="shop-item-price">$16.75</h6>
-                                <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                                <a href="#" class="btn btn-primary shop-item-button cart2">ADD TO CART</a>
+                                <input type="hidden" value="20" />
+                                <!-- <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button> -->
                             </div>
                           <p>Lorem ipsume dolor sit amet, adipisicing elite. Itaque, corporis nulla aspernatur.</p>
                           <ul class="stars">
@@ -148,16 +156,20 @@
                         </div>
                       </div>
                     </div>
+
+                    <!-- 3rd Product -->
                     <div class="col-lg-4 col-md-4 all gra">
                       <div class="product-item">
                         <a href="#">
                           <img class="shop-item-image" src="Images/IMG-20221013-WA0003.jpg" alt=""></a>
                         <div class="down-content">
-                          <a href="#"><h4>Gye Nyame Shirts <br />
-                            Designs</h4></a>
+                          <a href="#"><h4>Gye Nyame Shirt <br />
+                            Design</h4></a>
                             <div class="shop-item-details">
-                                <h6 class="shop-item-price">$32.50</h6>
-                                <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                                <h6 class="shop-item-price">$22.50</h6>
+                                <a href="#" class="btn btn-primary shop-item-button cart3">ADD TO CART</a>
+                                <!-- <input type="hidden" value="15" /> -->
+                                <!-- <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button> -->
                             </div>
                           <p>Lorem ipsume dolor sit amet, adipisicing elite. Itaque, corporis nulla aspernatur.</p>
                           <ul class="stars">
@@ -171,16 +183,20 @@
                         </div>
                       </div>
                     </div>
+
+                    <!-- 4th Product -->
                     <div class="col-lg-4 col-md-4 all gra">
                       <div class="product-item">
                         <a href="#">
                           <img class="shop-item-image" src="Images/IMG-20221013-WA0006.jpg" alt=""></a>
                         <div class="down-content">
                           <a href="#"><h4>Gye Nyame Cup<br />
-                            Designs</h4></a>
+                            Design</h4></a>
                             <div class="shop-item-details">
-                                <h6 class="shop-item-price">$24.60</h6>
-                                <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                                <h6 class="shop-item-price">$9.60</h6>
+                                <a href="#" class="btn btn-primary shop-item-button cart4">ADD TO CART</a>
+                                <!-- <input type="hidden" value="20" /> -->
+                                <!-- <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button> -->
                             </div>
                           <p>Lorem ipsume dolor sit amet, adipisicing elite. Itaque, corporis nulla aspernatur.</p>
                           <ul class="stars">
@@ -194,6 +210,8 @@
                         </div>
                       </div>
                     </div>
+
+                    <!-- 5th Product -->
                     <div class="col-lg-4 col-md-4 all dev">
                       <div class="product-item">
                         <a href="#">
@@ -202,8 +220,10 @@
                           <a href="#"><h4>Gye Nyame Cap<br />
                             Designs</h4></a>
                             <div class="shop-item-details">
-                                <h6 class="shop-item-price">$18.75</h6>
-                                <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                                <h6 class="shop-item-price">$18.25</h6>
+                                <a href="#" class="btn btn-primary shop-item-button cart5">ADD TO CART</a>
+                                <!-- <input type="hidden" value="15" /> -->
+                                <!-- <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button> -->
                             </div>
                           <p>Lorem ipsume dolor sit amet, adipisicing elite. Itaque, corporis nulla aspernatur.</p>
                           <ul class="stars">
@@ -217,6 +237,8 @@
                         </div>
                       </div>
                     </div>
+
+                    <!-- 6th Product -->
                     <div class="col-lg-4 col-md-4 all des">
                       <div class="product-item">
                         <a href="#">
@@ -224,8 +246,10 @@
                         <div class="down-content">
                           <a href="#"><h4>Gye Nyame Cards</h4></a>
                           <div class="shop-item-details">
-                            <h6 class="shop-item-price">$12.50</h6>
-                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                            <h6 class="shop-item-price">$22.50</h6>
+                            <a href="#" class="btn btn-primary shop-item-button cart6">ADD TO CART</a>
+                                <!-- <input type="hidden" value="20" /> -->
+                            <!-- <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button> -->
                         </div>
                           <p>Lorem ipsume dolor sit amet, adipisicing elite. Itaque, corporis nulla aspernatur.</p>
                           <ul class="stars">
@@ -282,6 +306,7 @@
     <script src="assets/js/slick.js"></script>
     <script src="assets/js/isotope.js"></script>
     <script src="assets/js/accordions.js"></script>
+    <script src="assets/js/cart.js"></script>
 
 
     <script language = "text/Javascript"> 
