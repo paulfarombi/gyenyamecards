@@ -623,17 +623,17 @@ footer .logo-footer{
   display: inline-flex;
   align-items: center;
 }
-.logo-footer img{
+/* .logo-footer img{
   padding-top: 20px;
-}
+} */
 footer h4{
   color: #fff;
-  font-size: 19px;
+  font-size: 16px;
   font-weight: 725px;
 }
 footer h4 span{
   font-weight: 600px;
-  font-size: 30px;
+  font-size: 21px;
   text-transform: uppercase;
 }
 
@@ -643,9 +643,13 @@ footer .groups{
   color: #fff;
 }
 
+footer .groups ul li{
+  font-size: 15px;
+}
+
 .footer-head{
   font-weight: bold;
-  font-size: 18px;
+  font-size: 16px;
   padding-bottom: 10px;
 }
 .group-1, .group-2{
@@ -1211,11 +1215,13 @@ footer .inner-content p a {
     width: 80px;
   }
   .logo-footer h4{
-    font-size: 9px;
+    font-size: 12px;
     padding-left: 5px;
+    font-weight: 500;
   }
   .logo-footer h4 span{
-    font-size: 15px;
+    font-size: 16px;
+    font-weight: 850px;
   }
   .groups{
     min-width: 250px;
