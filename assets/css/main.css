@@ -536,6 +536,9 @@ header {
 
 .best-features p {
   margin-bottom: 25px;
+  color: #405f33;
+  font-size: 15px;
+  text-align: justify;
 }
 
 .best-features .darkgreen {
@@ -570,9 +573,9 @@ header {
   background-color: #f33f3f;
 }
 
-.best-features .filled-button {
+/* .best-features .filled-button {
   margin-top: 20px;
-}
+} */
 
 /* Call To Action */
 

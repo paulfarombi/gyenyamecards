@@ -52,13 +52,13 @@ header .navbar{
     justify-content: space-around;
 }
     /* About Section */
-.left-content p{
+/* .left-content p{
     color: #405f33;
-    /* font-size: 16px; */
+    font-size: 16px;
 }
 .left-content p strong{
     font-size: 18px;
-}
+} */
 
        /* Cart Section */
 .cart span{
