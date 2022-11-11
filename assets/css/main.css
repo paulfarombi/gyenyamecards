@@ -1004,7 +1004,7 @@ footer .inner-content p a {
 }
 @media (max-width: 768px) {
   .navbar .logo h2{
-    font-size: 10px;
+    font-size: 12px;
     font-weight: 700px;
   }
   .navbar .logo h2 span{
