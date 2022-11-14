@@ -59,6 +59,12 @@ header .navbar{
 .left-content p strong{
     font-size: 18px;
 } */
+    
+/* FAQs Section */
+.faqs .col-md-4{
+    padding-top: 100px;
+    text-align: center;
+}
 
        /* Cart Section */
 .cart span{
