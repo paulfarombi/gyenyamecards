@@ -135,11 +135,11 @@ function displayCart() {
         });
 
         productContainer.innerHTML += `
-            <div class="basketTotalContainer">
-                <h4 class="basketTotalTitle">
-                    Basket Total
+            <div class="subTotalContainer">
+                <h4 class="subTotalTitle">
+                    Subtotal
                 </h4>
-                <h4 class="basketTotal">
+                <h4 class="subTotal">
                     $${cartCost}
                 </h4>
         `;

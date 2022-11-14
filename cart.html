@@ -12,7 +12,10 @@
       href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
 
     <title>Cart Page</title>
 
@@ -23,8 +26,7 @@
     <link rel="stylesheet" href="assets/css/fontawesome.css" />
     <link rel="stylesheet" href="assets/css/main.css" />
     <link rel="stylesheet" href="assets/css/owl.css" />
-    <link rel="stylesheet" href="custom.css" />
-    <!-- <script src="./assets/js/cart1.js" async></script> -->
+    <link rel="stylesheet" href="./custom.css" />
   </head>
 
   <body>
@@ -40,7 +42,7 @@
 
     <!-- Header -->
     <header class="">
-      <nav class="navbar navbar-expand-lg">
+      <nav class="navbar navbar-expand-lg navcart">
         <div class="container">
           <div class="logo">
             <a class="navbar-brand" href="index.html">
@@ -56,6 +58,7 @@
           <button
             class="navbar-toggler"
             type="button"
+            
             data-toggle="collapse"
             data-target="#navbarResponsive"
             aria-controls="navbarResponsive"
@@ -95,7 +98,7 @@ cart
  <!-- Cart Section -->
     <div class="products-container">
       <div class="product-header">
-        <h5 class="product-title">PRODUCT</h5>
+        <h5 class="product-title">PRODUCTS</h5>
         <h5 class="price">PRICE</h5>
         <h5 class="quantity">QUANTITY</h5>
         <h5 class="total">TOTAL</h5>
@@ -103,9 +106,9 @@ cart
       <div class="products">
         
       </div>
-      <a href="payment.html"><button class="btn btn-primary btn-purchase" type="button">
-        PURCHASE
-      </button></a>
+      <div class="checkout">
+        <a href="payment.html"><button class="btn btn-checkout" type="button">CHECKOUT</button></a>
+      </div>
     </div>
    
     <!-- Footer Section -->
