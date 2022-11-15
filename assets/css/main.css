@@ -626,9 +626,7 @@ footer .logo-footer{
   display: inline-flex;
   align-items: center;
 }
-/* .logo-footer img{
-  padding-top: 20px;
-} */
+
 footer h4{
   color: #fff;
   font-size: 16px;
@@ -658,7 +656,7 @@ footer .groups ul li{
 .group-1, .group-2{
   padding-right: 45px;
 }
-footer .groups .socials a{
+footer .groups a{
   color: #fff;
 }
 
@@ -958,14 +956,14 @@ footer .inner-content p a {
   color: #fff;
 }
 
-.accordion {
+/* .accordion {
   margin-left: 30px;
-}
+} */
 
 .accordion a {
   cursor: pointer;
   font-size: 17px;
-  color: darkgreen;
+  color: #405f33;
   margin-bottom: 20px;
   transition: all 0.3s;
 }
@@ -992,8 +990,13 @@ footer .inner-content p a {
   padding: 15px 0px;
 }
 
+
 /* Responsive Style */
 @media (max-width: 375px) {
+  .logo-name {
+    padding-left: 10px;
+  }
+  
   .navbar .logo h2{
     position: absolute;
     padding-left: 80px;
@@ -1126,7 +1129,8 @@ footer .inner-content p a {
     font-size: 21px;
     font-weight: 800;
   }
-
+  
+  
   footer .groups {
     display: inline-block;
     align-items: center;
