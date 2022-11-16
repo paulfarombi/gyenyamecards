@@ -137,7 +137,7 @@ function displayCart() {
         productContainer.innerHTML += `
             <div class="subTotalContainer">
                 <h4 class="subTotalTitle">
-                    Subtotal
+                    Subtotal:
                 </h4>
                 <h4 class="subTotal">
                     $${cartCost}

@@ -657,7 +657,7 @@ footer .groups ul li{
   padding-right: 45px;
 }
 footer .groups a{
-  color: #fff;
+  color: rgb(238, 238, 238, 0.8);
 }
 
 .socials .fa-brands{
@@ -1110,6 +1110,11 @@ footer .inner-content p a {
     margin-left: 0px;
   }
   
+  footer {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
   footer .logo-footer {
     display: inline-block;
     padding-left: 105px;
@@ -1230,6 +1235,7 @@ footer .inner-content p a {
     font-size: 16px;
     font-weight: 850px;
   }
+  
   .groups{
     min-width: 250px;
     padding-bottom: 30px;
