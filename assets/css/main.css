@@ -1006,15 +1006,23 @@ footer .inner-content p a {
 
 /* Responsive Style */
 @media (max-width: 375px) {
+  .logo {
+    padding-top: 7.705px;
+  }
+  .navbar .logo .logo-name {
+    height: 64.6px;
+    width: 85px;
+    /* top: 20px; */
+  }
   .logo-name {
     padding-left: 10px;
   }
   
   .navbar .logo h2{
-    position: absolute;
-    padding-left: 80px;
+    /* position: absolute; */
+    /* padding-left: 5px; */
     font-size: 10px;
-    font-weight: 700px;
+    font-weight: bold;
   }
   .navbar .logo h2 span{
     font-size: 16px;
@@ -1025,8 +1033,9 @@ footer .inner-content p a {
   header {
     height: 90px;
   }
+  
   .navbar .logo .logo-name {
-    padding-left: 5px;
+    padding-left: 8px;
   }
   .navbar .logo h2{
     font-size: 15px;
