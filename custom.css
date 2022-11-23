@@ -75,6 +75,7 @@ header .navbar{
 }
 .faqs .col-md-4 h2 {
     color: #405f33;
+    padding-top: 30px;
 }
 .faqs .fa-check {
     padding-right: 5px;

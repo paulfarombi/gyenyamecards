@@ -21,7 +21,7 @@
     /* fix firefox animation glitch */ }
   .owl-carousel .owl-stage:after {
     content: ".";
-    display: block;
+    display: block;aa
     clear: both;
     visibility: hidden;
     line-height: 0;
