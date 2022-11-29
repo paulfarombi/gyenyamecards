@@ -89,7 +89,7 @@ a.filled-button:hover {
 }
 
 .products-heading {
-  background-image: url(../Image/Slider.png);
+  background-image: url(../Image/Prohero.png);
     /* (../images/products-heading.jpg); */
 }
 
@@ -111,7 +111,7 @@ a.filled-button:hover {
 .page-heading .text-content {
   position: absolute;
   top: 75%;
-  transform: translateY(-35%);
+  /* transform: translateY(-10%); */
   text-align: center;
   width: 100%;
 }
@@ -1064,12 +1064,15 @@ footer .inner-content p a {
     padding: 180px 0px;
   }
   .page-heading .text-content {
-    transform: translateY(-3%);
+    transform: translateY(50%);
   }
   .page-heading .text-content h4 {
     font-size: 22px;
-
   }
+  /* .page-heading .text-content {
+    top: 75%;
+    transform: translateY(-35%);
+  } */
 
   .page-heading .text-content h2 {
     font-size: 30px;
