@@ -141,9 +141,18 @@
                 <h3 class="title">payment</h3>
 
                 <div class="inputBox">
-                    <span>cards accepted :</span>
+                    <span>cards accepted : 
+                      <select name="cards" id="cards">
+                        <option value="select">Select...</option>
+                          <option value="mobile money">Mobile Money</option>
+                          <option value="visa">Visa</option>
+                          <option value="mastercard">MasterCard</option>
+                          <option value="paypal">PayPal</option>
+                      </select>
+                    </span>
                     <img src="Images/card_img.png" alt="">
                 </div>
+
                 <div class="inputBox">
                     <span>name on card :</span>
                     <input type="text" placeholder="Mr. John Doe">
