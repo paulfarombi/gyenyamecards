@@ -613,6 +613,7 @@ header {
 footer {
   /* text-align: center; */
   background-color: #405f33;
+  margin-top: auto;
 }
 
 footer .inner-content {
