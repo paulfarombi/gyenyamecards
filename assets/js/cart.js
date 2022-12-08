@@ -145,7 +145,5 @@ function displayCart() {
         `;
     }    
 } 
-/* <img src="assets/js/images/gyenyamecupdesign.jpg">
-<img src="./images/${item.tag}.jpg"> */
 onLoadCartNumbers();
 displayCart();
