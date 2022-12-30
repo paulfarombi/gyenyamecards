@@ -775,6 +775,20 @@ footer .inner-content p a {
   color: #fff;
 }
 
+.record {
+  padding: 30px 120px 0px;
+}
+
+.record .record-cont p {
+  text-align: justify;
+  font-size: 15px;
+  color: #403f33;
+}
+
+.record .record-cont p:not(:last-child) {
+  padding-bottom: 10px;
+}
+
 /* Team Members */
 
 .team-members {
