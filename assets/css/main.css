@@ -331,6 +331,25 @@ header {
   line-height: 26px;
   font-family: "FontAwesome";
 }
+
+/* spining log */
+.rotated {
+   -webkit-animation: spin 5s reverse infinite;
+   -moz-animation: spin 5s linear infinite;
+   animation: spin 5s linear infinite;
+}
+
+/* use keyframes */
+@-webkit-keyframes spin {
+    100%{-webkit-transform: rotateY(180deg);}
+}
+@-moz-keyframes spin {
+    100%{-webkit-transform: rotateY(180deg);}
+}
+@keyframes spin {
+    100%{-webkit-transform: rotateY(180deg);}
+}
+
 /* Overview */
 .comp-overview {
   padding-top: 40px;
