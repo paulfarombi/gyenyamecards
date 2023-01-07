@@ -493,9 +493,6 @@ header {
 .product-item .down-content h4 {
   font-size: 17px;
   color: black;
-  /* darkgreen; */
-  /* #1a6692; */
-  /* margin-bottom: 20px; */
 }
 
 .product-item .down-content h6 {
@@ -776,20 +773,16 @@ footer .inner-content p a {
 }
 
 .abt-us {
-  padding: 30px 80px 0px;
+  padding: 30px 0;
 }
 
-.abt-us .abt-us-cont p {
+.abt-us p {
   text-align: justify;
-  font-size: 15px;
-  color: #403f33;
 }
-
-
 /* Team Members */
 
 .team-members {
-  margin-top: 100px;
+  margin-top: 20px;
 }
 
 .team-members .row {
