@@ -14,6 +14,7 @@ p {
   color: #4a4a4a;
   line-height: 24px;
 }
+
 a {
   text-decoration: none !important;
 }
@@ -92,6 +93,7 @@ a.filled-button:hover {
 .products-heading {
   background-image: url(../Image/Prohero.png);
 }
+
 
 .about-heading {
   background-image: url(../Image/small-business.jpg);
@@ -427,6 +429,83 @@ header {
   opacity: 1;
 }
 
+.auto-slide {
+  animation: slide 10s infinite;
+}
+
+@keyframes slide{
+  0%{
+    transform: translateX(0);
+  }
+  25%{
+    transform: translateX(-1350px);
+  }
+  30%{
+    transform: translateX(-1350px);
+  }
+  50%{
+    transform: translateX(-2700px);
+  }
+  55%{
+    transform: translateX(-2700px);
+  }
+  75%{
+    transform: translateX(-1350px);
+  }
+  80%{
+    transform: translateX(-1350px);
+  }
+  100%{
+    transform: translateX(0px);
+  }
+}
+
+/* HOME SLIDER */
+.home-slider {
+  width: 100%;
+  height: 600px;
+  overflow: hidden;
+  padding-top: 40px;
+}
+
+.home-slider figure div {
+  float: left;
+  width: 33.33%;
+}
+
+.home-slider figure img {
+  width: 100%;
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  float: left;
+}
+
+.home-slider figure {
+  position: relative;
+  width: 300%;
+  margin: 0;
+  animation: animate 20s infinite;
+}
+.home-slider .home-slide h4 {
+  position: absolute;
+  color: white;
+  font-size: 62px;
+  font-weight: bold;
+  line-height: 60px;
+  text-align: center;
+  padding-top: 8.5%;
+  width: 100%;
+  height: 600px;
+}
+
+.home-slider .home-slide h4 span {
+  /* line-height: 50px; */
+  font-size: 45px;
+}
+
+
 /* Overview */
 .comp-overview {
   padding-top: 40px;
@@ -508,6 +587,37 @@ header {
   font-size: 13px;
   color: #f33f3f;
   font-weight: 500;
+}
+
+.procard-info {
+  width: 100%;
+  /* padding-top: 20px; */
+}
+.procard-info .container {
+  /* margin: 30px auto; */
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+}
+
+.procard-info .emergence {
+  width: 50%;
+  /* float: left; */
+  display: flex;
+  flex-direction: column;
+  padding-right: 15px;
+} 
+.procard-info p {
+  text-align: justify;
+  padding-top: 15px;
+}
+.procard-info .card-works {
+  width: 50%;
+  padding-left: 15px;
+  border-left: 1px solid rgba(74, 74, 74, 0.4);
+  /* float: left; */
+  display: flex;
+  flex-direction: column;
 }
 
 /* Best Features */
@@ -699,6 +809,68 @@ footer .inner-content p a {
 }
 
 /* Product Page */
+
+.pro-slider {
+  width: 100%;
+  height: 600px;
+  overflow: hidden;
+  padding-top: 40px;
+}
+
+.pro-slider figure div {
+  float: left;
+  width: 33.33%;
+}
+
+.pro-slider figure img {
+  width: 100%;
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  float: left;
+}
+
+.pro-slider figure {
+  position: relative;
+  width: 300%;
+  margin: 0;
+  animation: animate 20s infinite;
+}
+.pro-slider .pro-slide p {
+  /* position: fixed; */
+  position: absolute;
+  color: white;
+  font-size: 80px;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.2);
+  padding-top: 5%;
+  width: 100%;
+  height: 600px;
+}
+
+@keyframes animate
+{
+  0%{left:0%;}
+  10%{left:0%;}
+  12%{left:-100%;}
+  22%{left:-100%;}
+  24%{left:-200%;}
+  34%{left:-200%;}
+  36%{left:-200%;}
+  46%{left:-100%;}
+  48%{left:-100%;}
+  58%{left:0%;}
+  60%{left:0%;}
+  70%{left:-100%;}
+  72%{left:-100%;}
+  82%{left:-200%;}
+  84%{left:-200%;}
+  94%{left:-100%;}
+  96%{left:-100%;}
+  100%{left: 0;}
+}
+
 
 .products-p {
   margin-top: 60px;
@@ -1089,16 +1261,35 @@ footer .inner-content p a {
   .banner-item-03 {
     padding: 180px 0px;
   }
+
+  .pro-slider .pro-slide p {
+    font-size: 30px;
+    padding-top: 10%;
+  }
+
+  .pro-slider figure img {
+    object-fit: cover;
+  }
+
+  .home-slider figure img {
+    object-fit: cover;
+  }
+
+  .home-slider .home-slide h4 {
+    padding-top: 25%;
+    font-size: 32px;
+  }
+
+  .home-slider .home-slde span {
+    font-size: 18px;
+  }
+
   .page-heading .text-content {
     transform: translateY(50%);
   }
   .page-heading .text-content h4 {
     font-size: 22px;
   }
-  /* .page-heading .text-content {
-    top: 75%;
-    transform: translateY(-35%);
-  } */
 
   .page-heading .text-content h2 {
     font-size: 30px;
@@ -1120,6 +1311,21 @@ footer .inner-content p a {
 
   .bc .text-content h4 {
     font-size: 20px;
+  }
+
+  .procard-info .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .procard-info .emergence {
+    width: 100%;
+    padding-right: 0;
+  }
+
+  .procard-info .card-works{
+    width: 100%;
+    padding-left: 0;
   }
   .latest-products .section-heading a {
     float: none;
@@ -1269,6 +1475,7 @@ footer .inner-content p a {
   .navbar .navbar-nav .nav-link.show,
   .navbar .navbar-nav .show > .nav-link {
     color: #f33f3f !important;
+    font-weight: bold;
     border-bottom: none !important;
     padding-bottom: 15px;
   }
@@ -1311,5 +1518,14 @@ footer .inner-content p a {
   .groups{
     min-width: 250px;
     padding-bottom: 30px;
+  }
+
+  .pro-slider .pro-slide p {
+    font-size: 50px;
+    padding-top: 7%;
+  }
+
+  .home-slider .home-slide h4 {
+    padding-top: 13%;
   }
 }
