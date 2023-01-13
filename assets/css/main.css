@@ -1154,9 +1154,16 @@ footer .inner-content p a {
     padding-right: 0;
   }
 
+  .procard-info p {
+    padding-bottom: 15px;
+  }
+
   .procard-info .card-works{
     width: 100%;
     padding-left: 0;
+    border-left: none;
+    padding-top: 15px;
+    border-top: 1px solid rgba(74, 74, 74, 0.4);
   }
   .latest-products .section-heading a {
     float: none;
