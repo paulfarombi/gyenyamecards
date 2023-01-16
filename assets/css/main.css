@@ -293,7 +293,7 @@ header {
   color: white;
 }
 
-.pro-slider figure img {
+.pro-slide img {
   width: 100%;
   height: 700px;
   float: left;
@@ -350,7 +350,7 @@ header {
 
 /* Overview */
 .comp-overview {
-  /* padding-top: 40px; */
+  /* padding-bottom: 30px; */
 }
 
 .comp-overview h2{
@@ -365,6 +365,21 @@ header {
 .comp-overview p {
   text-align: justify;
 }
+
+.overview-read-more {
+  display: none;
+}
+
+.overview-read-more--show {
+  display: inline;
+}
+
+.overview-read-more-btn {
+  color: #f33f3f;
+  cursor: pointer;
+}
+
+
 
 /* Latest Produtcs */
 
