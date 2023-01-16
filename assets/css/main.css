@@ -964,12 +964,18 @@ footer .inner-content p a {
 .faqs .col-md-4{
   /* text-align: center; */
   margin: 0 auto 30px;
+  max-width: 500px;
+  
+}
+
+.faqs .faqs-cont {
   border: 1px solid #405f33;
+  padding: 0 10px;
 }
 
 .faqs .col-md-4 h2 {
   color: #405f33;
-  padding-top: 30px;
+  padding-top: 15px;
   text-align: center;
 }
 
