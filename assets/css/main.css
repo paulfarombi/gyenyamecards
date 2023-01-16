@@ -287,7 +287,7 @@ header {
 
 .pro-slider figure .pro-slide {
   float: left;
-  width: 33.33%;
+  width: 20%;
   position: relative;
   text-align: center;
   color: white;
@@ -301,7 +301,7 @@ header {
 
 .pro-slider figure {
   position: relative;
-  width: 300%;
+  width: 500%;
   margin: 0;
   animation: animate 20s infinite;
 }
@@ -334,19 +334,19 @@ header {
   22%{left:-100%;}
   24%{left:-200%;}
   34%{left:-200%;}
-  36%{left:-200%;}
-  46%{left:-100%;}
-  48%{left:-100%;}
-  58%{left:0%;}
-  60%{left:0%;}
-  70%{left:-100%;}
-  72%{left:-100%;}
+  36%{left:-300%;}
+  46%{left:-300%;}
+  48%{left:-400%;}
+  58%{left:-400%;}
+  60%{left:-300%;}
+  70%{left:-300%;}
+  72%{left:-200%;}
   82%{left:-200%;}
-  84%{left:-200%;}
+  84%{left:-100%;}
   94%{left:-100%;}
-  96%{left:-100%;}
-  100%{left: 0;}
+  96%{left:0%;}
 }
+
 
 /* Overview */
 .comp-overview {
