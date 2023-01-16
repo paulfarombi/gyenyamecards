@@ -959,9 +959,23 @@ footer .inner-content p a {
   color: #fff;
 }
 
-/* .accordion {
-  margin-left: 30px;
-} */
+/* FAQs Section */
+
+.faqs .col-md-4{
+  /* text-align: center; */
+  margin: 0 auto 30px;
+  border: 1px solid #405f33;
+}
+
+.faqs .col-md-4 h2 {
+  color: #405f33;
+  padding-top: 30px;
+  text-align: center;
+}
+
+.faqs .fa-check {
+  padding-right: 10px;
+}
 
 .accordion a {
   cursor: pointer;
@@ -982,6 +996,10 @@ footer .inner-content p a {
 .accordion li .content {
   display: none;
   margin-top: 10px;
+}
+
+.accordion li .content p {
+  text-align: justify;
 }
 
 .accordion li:first-child {
